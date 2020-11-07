@@ -1,26 +1,26 @@
-site: Sidey
+site: pandafy
 url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+title: pandafy
+description: dev logs
 twitter:
-  username: #yourusername
+  username: pandafy
   card: summary
-  creator: #yourusername
+  creator: pandafy
 author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
+  twitter: _pandafy_
+  name: Gagan Deep
+  avatar: https://avatars1.githubusercontent.com/u/32094433?s=460&u=e294318a11a54ea7dabd1179e7438146c5528bf1&v=4
+  email: pandafy.dev@gmail.com
+  url: pandafy.me
 permalink: pretty
 
-baseurl: ""
+baseurl: pandafy.me
 
 highlighter: none
 
 exclude:
   - .jekyll-cache
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -32,7 +32,7 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
 
 collections:
   pages:
@@ -41,7 +41,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 defaults:
   -
     scope:
